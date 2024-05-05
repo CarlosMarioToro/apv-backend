@@ -33,6 +33,5 @@ app.use('/api/pacientes', pacienteRoutes);
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
-    resizeBy.send('Hola Mundo')
     console.log(`Servidor funcionando en el puerto ${PORT}`);
 })
